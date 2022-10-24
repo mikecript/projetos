@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./js/css/style.css">
+    <title>Modelo</title>
+</head>
+<body>
+    
+    <section class="container">
+        <h1>Tabela IMC</h1>
+
+        <section class="infoImc">
+        <h2>IMC</h2> 
+        <p>Menos do que 18,5</p>
+        <p>Entre 18,5 e 24,9</p>
+        <p>Entre 25 e 29,9</p>
+        <p>Entre 30 e 34,9</p>
+        <p>Entre 35 e 39,9</p>
+        <p>Superior a 40</p>
+        </section>
+
+        <section class="infoImc">
+            <h2>Resultado</h2>
+            <p>Abaixo do peso</p>
+            <p>Peso normal</p>
+            <p>Sobrepeso</p>
+            <p>Obesidade grau 1</p>
+            <p>Obesidade grau 2</p>
+            <p>Obesidade grau 3</p>
+        </section>
+
+
+        
+    <form id="formulario">  
+        <p><label for="ipeso">Peso: <input type="text" placeholder="Digite o seu peso..." name="peso" id="ipeso"></label></p>
+        <p><label for="ialtura">Altura: <input type="text" name="altura" placeholder="Digite sua altura..." id="ialtura"></label></p>
+        <button type="submit" onsubmit="">Calcular IMC</button>
+
+        <section id="resultado"></section>
+    </form>
+    </section>
+
+
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+:root{
+    --corPrimaria: #65afc8;
+    --corPrimariaShadow: #265a6b;
+    
+}
+    @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+    } 
+
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--corPrimaria);
+    font-family: 'Open sans', Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container{
+    max-width: 640px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px var(--corPrimariaShadow);
+}
+
+.container>h1{
+    animation: fadeIn .7s;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.infoImc{
+    width: 45%;
+    display: inline-table;
+    animation: fadeIn .7s;
+
+}
+
+form input, form label, form button{
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    animation: fadeIn .7s;
+
+}
+
+#ipeso,#ialtura{
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+#ipeso::placeholder,#ialtura::placeholder{
+    font-family: 'Caveat',Arial, Helvetica, sans-serif;
+}
+
+#ipeso:focus,#ialtura:focus{
+    outline: 1px solid var(--corPrimaria);
+}
+
+form>button{
+    border: none;
+    background: var(--corPrimaria);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    transition: .5s;
+    margin-top: 25px;
+}
+
+form>button:hover{
+    background: var(--corPrimariaShadow);
+}
+
+.imcResultado{
+    animation: fadeIn .7s;
+    text-align: center;
+    font-size: 1.3em;
+}
