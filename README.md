@@ -6,7 +6,7 @@
 
  Projeto cordel(meu primeiro projeto): <a href="https://mikecript.github.io/projetos/projeto-cordel/cordel.html">Projeto cordel moderno</a> <br>
 
- projeto Redes Sociais: <a href="https://mikecript.github.io/projetos/projetos-redes-sociais/redes-sociais.html">Projeto redes sociais <br>
+ projeto Redes Sociais: <a href="https://mikecript.github.io/projetos/projeto-redes-sociais/redes-sociais.html">Projeto redes sociais <br>
 
 
 
