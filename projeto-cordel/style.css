@@ -1,0 +1,158 @@
+ @charset "UTF-8";
+         
+         
+    @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+
+       :root{
+        --fonteconteudo: 'Edu NSW ACT Foundation', cursive, Arial, Helvetica, sans-serif;
+
+        --fontetitulo: 'Koulen', cursive, Arial, Helvetica, sans-serif ;
+
+       }
+
+       html, body{
+        min-height: 100vh;
+       }
+
+
+        header{
+            background-color: black;
+            height: 200px;
+            padding: 25px;
+            position: relative;
+            min-width: 200px;
+            max-width: 100%;
+            
+
+        }
+
+        #titulo{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            width: 100%;
+            
+        }
+        #titulo > h1{
+           font-family: var(--fontetitulo);
+           font-size: 3.5em;
+            color: white;
+            text-align: center;
+
+        
+            
+        }
+
+        #titulo > p{
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            
+        }
+
+        section.poesia{
+            background-color: white;
+            min-width: 100px;
+            max-width: 200px;
+            
+           
+        }
+
+        section.poesia > h2{
+
+            line-height: 2em;
+            font-size: 2.5em;
+            font-family: var(--fonteconteudo);
+            margin: 0px 0px 80px 35px;
+            width: 100%;
+
+        }
+
+        #bloco-img{
+            background-image: url('imagens/background001.jpg');
+            background-position: center top;
+            background-attachment: fixed;
+            background-size: cover;
+            padding: 65px;
+            min-width: 200px;
+            max-width: 100%;
+            
+        }
+
+        section#bloco-img > h2{
+            font-size: 1.5em;
+            padding: 8px;
+            min-height: 300px;
+            max-height: 500px;
+            width: 250px;
+            font-family: var(--fonteconteudo);
+            line-height: 50px;
+            background-color: #00000073;
+            color: white;
+            margin: 10px 0px 0px -25px;
+        }
+
+    
+
+        #bloco02-img{
+        background-image: url('imagens/background002.jpg');
+        background-color: black;
+        background-position: right center;
+        background-attachment: fixed;
+        min-width: 200px;
+        max-width: 100%;
+        height: 500px;
+        padding: 65px;
+    }
+
+
+   
+    section#bloco02-img > h2{
+            font-size: 1.5em;
+            padding: 8px;
+            min-height: 300px;
+            max-height: 500px;
+            width: 250px;
+            font-family: var(--fonteconteudo);
+            line-height: 50px;
+            background-color: #00000073;
+            color: white;
+            margin: 10px 0px 0px -25px;
+    }
+
+    footer{
+        background-color: black;
+        padding: 25px;
+        min-width: 200px;
+        max-width: 100%;
+    }
+
+    footer h2{
+        color: white;
+        text-align: center;
+        width: 100%;
+        font-family: var(--fonteconteudo);
+        font-weight: lighter;
+       
+    }
+
+    footer a{
+        text-decoration: none;
+        color: white;
+    }
+
+    footer a:hover{
+        font-weight: 900;
+        text-decoration: underline white;
+        
+    }
