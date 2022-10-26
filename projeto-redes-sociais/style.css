@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+    @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+    } 
+
 body{
     background-image: url(imagens/fundo-madeira.jpg);
     background-position: center center;
@@ -29,6 +34,7 @@ article#telefone{
     height: 640px;
     background-image: url('imagens/frame-iphone.png');
     background-repeat: no-repeat;
+    animation: fadeIn .7s;
     
 }
 
@@ -38,12 +44,16 @@ iframe#telaid{
     left: 22px;
     width: 268px;
     height: 471px;
+    animation: fadeIn .7s;
+
 }
 
 nav#redes-sociais{
     text-align: right;
     min-width: 100px;
     max-width: 100%;
+    animation: fadeIn .7s;
+
 }
 
 
@@ -53,6 +63,7 @@ nav#redes-sociais{
     border-radius: 50%;
     box-sizing: border-box;
     box-shadow: 2px 2px 2px #00000057;
+
 }
 
 
