@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Gujarati:wght@200;300&display=swap');
 
 :root{
     --corPrimaria: #65afc8;
@@ -38,12 +40,17 @@ body{
     animation: fadeIn .7s;
     font-weight: bold;
     margin-bottom: 20px;
+    font-family: 'Fredoka One', Arial, Helvetica, sans-serif, cursive;
+    font-weight: 200;
 }
 
 .infoImc{
     width: 45%;
     display: inline-table;
     animation: fadeIn .7s;
+    font-weight: 500;
+    font-family: 'Noto Serif Gujarati',Arial, Helvetica, sans-serif, serif;
+
 
 }
 
@@ -53,6 +60,12 @@ form input, form label, form button{
     width: 100%;
     animation: fadeIn .7s;
 
+
+}
+
+form label{
+    font-weight: 600;
+    font-family: 'Noto Serif Gujarati',Arial, Helvetica, sans-serif, serif;
 }
 
 #ipeso,#ialtura{
