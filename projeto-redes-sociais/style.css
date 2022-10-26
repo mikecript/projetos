@@ -19,7 +19,10 @@ body{
 
 main{
     position: relative;
-    height: 100vh;
+    min-width: 100px;
+    max-width: 99.8vw;
+    min-height: 100px;
+    max-height: 99.8vh;
 
 }
 
@@ -30,8 +33,10 @@ article#telefone{
     display: block;
     margin: auto;
     transform: translate(-50% , -50%);
-    width: 340px;
-    height: 640px;
+    min-width: 100px;
+    max-width: 340px;
+    min-height: 100px;
+    max-height: 640px;
     background-image: url('imagens/frame-iphone.png');
     background-repeat: no-repeat;
     animation: fadeIn .7s;
@@ -42,8 +47,10 @@ iframe#telaid{
     position: relative;
     top: 80px;
     left: 22px;
-    width: 268px;
-    height: 471px;
+    min-width: 100px;
+    max-width: 268px;
+    min-height: 100px;
+    max-height: 471px;
     animation: fadeIn .7s;
 
 }
@@ -58,7 +65,8 @@ nav#redes-sociais{
 
 
 .icones{
-    width: 70px;
+    min-width: 50px;
+    max-width: 70px;
     margin: 10px 15px 0px 0px;
     border-radius: 50%;
     box-sizing: border-box;
