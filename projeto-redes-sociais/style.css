@@ -11,18 +11,14 @@
 body{
     background-image: url(imagens/fundo-madeira.jpg);
     background-position: center center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
-    min-width: 100px;
-    max-width: 100vw;
+
 }
 
 main{
     position: relative;
-    min-width: 100px;
-    max-width: 99.8vw;
-    min-height: 100px;
-    max-height: 99.8vh;
+
 
 }
 
@@ -31,12 +27,10 @@ article#telefone{
     top: 50%;
     left: 50%;
     display: block;
-    margin: auto;
+    margin: 14% auto;
     transform: translate(-50% , -50%);
-    min-width: 100px;
-    max-width: 340px;
-    min-height: 100px;
-    max-height: 640px;
+    width: 340px;
+    height: 640px;
     background-image: url('imagens/frame-iphone.png');
     background-repeat: no-repeat;
     animation: fadeIn .7s;
@@ -47,18 +41,14 @@ iframe#telaid{
     position: relative;
     top: 80px;
     left: 22px;
-    min-width: 100px;
-    max-width: 268px;
-    min-height: 100px;
-    max-height: 471px;
+    width: 268px;
+    height: 471px;
     animation: fadeIn .7s;
 
 }
 
 nav#redes-sociais{
     text-align: right;
-    min-width: 100px;
-    max-width: 100%;
     animation: fadeIn .7s;
 
 }
