@@ -8,7 +8,7 @@
 
  projeto Redes Sociais: <a href="https://mikecript.github.io/projetos/projeto-redes-sociais/redes-sociais.html">Projeto redes sociais <br>
 
- Projeto Formulário: <a href="https://mikecript.github.io/projetos/trabalhoFormularioEmHtml/Cadastro.html">Formulário <br>
+ Projeto Formulário: <a href="https://mikecript.github.io/projetos/trabalhoFormularioEmHtml/Cadastro.html">Projeto Formulário <br>
 
 
 
