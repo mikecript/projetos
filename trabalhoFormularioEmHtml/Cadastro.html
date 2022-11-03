@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".\style.css">
+    <link rel="shortcut icon" href="favicon_io/android-chrome-512x512.png" type="image/x-icon">
+    <title>Cadastro</title>
+</head>
+<body>
+
+    <form class="container" action="cadastro.php" method="post">
+        <h1 class="title">Cadastro Profissional</h1>
+
+        <section class="row">
+            <article class="inputbox">
+                <input type="text" autocomplete="on" id="nome" required>
+                <label for="nome">Nome</label>
+            </article>
+            <article class="inputbox">
+                <input type="email" id="email" autocomplete="address-level4"  required>
+                <label for="email">Email</label>
+            </article>
+        </section>
+
+        <section class="row">
+            <article class="inputbox">
+                <input type="text" id="cep"  required>
+                <label for="cep">CEP</label>
+            </article>
+
+            <article class="inputbox">
+                <input type="text" id="endereco"  required>
+                <label for="endereco">Endereço</label>
+            </article>
+
+            <article class="inputbox">
+                <input type="text" id="numero"  required>
+                <label for="numero">Número</label>
+            </article>
+
+       
+            <article class="inputbox">
+                <input type="text" id="bairro"  required>
+                <label for="bairro">Bairro</label>
+            </article>
+
+            <article class="inputbox">
+                <input type="text" id="cidade"  required>
+                <label for="cidade">Cidade</label>
+            </article>
+
+            <article class="inputbox">
+                <input type="text" id="estado"  required>
+                <label for="estado">Estado</label>
+            </article>
+        </section>
+
+
+
+        <section class="row">
+            <article class="inputbox">
+                <input type="url" id="url"  required>
+                <label for="url">URL</label>
+            </article>
+
+            <article class="inputbox">
+                <input type="tel" id="tel"  required>
+                <label for="tel">Telefone</label>
+            </article>
+
+            <article class="inputbox">
+                <input type="date" id="data"  required>
+                <label for="data">Nascimento</label>
+            </article>
+
+        </section>
+
+
+        <h1 class="title">Dados Profissionais</h1>
+
+
+        <section class="row inputbox">
+        <select name="cargo" class="inputbox" id="cargo" >
+            <optgroup label="-------------------">
+                <option value="bnc">Banco de dados</option>
+                <option value="design">Design</option>
+                <option value="front">Desenvolvimento Front-End</option>
+                <option value="back">Desenvolvimento Back-End</option>
+                <option value="engenhariasoftware">Engenharia de Software</option>
+                <option value="analisedetestes">Análise de testes</option>
+                <option value="analisedenegocios">Análise de negócios</option>
+                <option value="manutencao">Manutenção</option>
+            </optgroup>
+        </select>
+
+        <input list="formacao" name="iformacao" placeholder="Formação" id="iformacao">
+        <datalist id="formacao">
+            <option value="Ensino Fundamental">
+            <option value="Ensino Médio">
+            <option value="Ensino Superior">
+            <option value="Pós Graduação">
+            <option value="Mestrado">
+            <option value="Doutorado">
+        </datalist>
+
+    </section>
+
+    <section class="row">
+        <article class="inputbox">
+        <input type="file" class="btn" name="arquivo" hidden id="iarquivo">
+        <label for="iarquivo" id="iarquivoText">Upload Curriculo <svg xmlns="http://www.w3.org/2000/svg" width="22" style="margin: 0px 0px -3.5px 0px;" height="22" fill="currentColor" class="bi bi-paperclip" viewBox="0 0 16 16"><path d="M4.5 3a2.5 2.5 0 0 1 5 0v9a1.5 1.5 0 0 1-3 0V5a.5.5 0 0 1 1 0v7a.5.5 0 0 0 1 0V3a1.5 1.5 0 1 0-3 0v9a2.5 2.5 0 0 0 5 0V5a.5.5 0 0 1 1 0v7a3.5 3.5 0 1 1-7 0V3z"/></svg></label>
+        </article>
+       
+    </section>
+
+        <h1 class="title">Agendamento de Entrevista <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27"  fill="currentColor" class="bi bi-newspaper" viewBox="0 0 16 16"><path d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5v-11zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5H12z"/><path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"/></svg></h1>
+        <section class="col" id="disponivel">
+
+             <label class="title" id="checktitle" for="checkbox" aria-required="true">Horário disponivel
+        <article class="check">
+            <input type="checkbox" id="horas10" name="horas10" required checked>
+            <label for="horas10">[10 HORAS]</label>
+        </article>
+
+          <article class="check">
+            <input type="checkbox" id="horas20" name="horas20">
+            <label for="horas20">[20 HORAS]</label>
+          </article>
+         
+          <article class="check">
+            <input type="checkbox" id="horas30" name="horas30">
+            <label for="horas30">[30 HORAS]</label>
+        </article>
+
+          <article class="check">
+            <input type="checkbox" id="horas40" name="horas40">
+            <label for="horas40">[40 HORAS]</label>
+          </article>
+
+
+          <h1 class="title">Fale sobre você</h1>
+          <article>
+            <textarea name="sobre" id="isobre" placeholder="porque quer entrar na nossa empresa?.." class="inputbox" cols="100" rows="30" style="height: 100px;"></textarea>
+          </article>
+
+             </label>
+             
+            <article class="inputbox" id="dataHora">
+                <input type="datetime-local" name="horario" required id="horario">
+                <label for="horario">Data e Horário</label>
+            </article>
+
+            
+        </section>
+
+
+
+        <article class="row">
+            <button class="btn">Cadastrar <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-plus-fill" viewBox="0 0 16 16"><path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/><path fill-rule="evenodd" d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z"/></svg></button>
+        </article>
+    </form>
+    
+
+    <script src="scripts.js"></script>
+</body>
+</html>
