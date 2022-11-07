@@ -4,7 +4,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Curso de bootstrap</title>
+    <link rel="shortcut icon" href="favicon/spotify.png" type="image/x-icon">
+    <title>Spotify</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
     rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
     crossorigin="anonymous">
@@ -14,11 +15,11 @@
   </head>
 
 
-  <header id="cabecalho" class="container-fluid p-3">
-    <img id="logo-spot" class="container-fluid" src="imagens/Spotify_Logo_200px.png" alt="">
+  <header id="cabecalho" class="container-fluid">
+    <img id="logo-spot" class="container" src="imagens/Spotify_Logo_200px.png" alt="">
 
     <nav>
-    <ul class="nav justify-content-end">
+    <ul class="nav">
 
         <li class="nav-item">
             <a href="" class="nav-link ">Premium</a>
@@ -30,6 +31,7 @@
         <li class="nav-item">
             <a href="" class="nav-link">Baixar</a>
         </li>
+
 
         <li class="nav-item">
             <a href="" class="nav-link">Inscrever-se</a>
@@ -63,28 +65,69 @@
 
 
     <section class="logos">
-        <img class="p-2" src="imagens/music-logo.png" alt="">
+       <svg xmlns="http://www.w3.org/2000/svg" width="115" height="115" fill="currentColor" class="bi bi-music-note" viewBox="0 0 16 16"><path d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z"/><path fill-rule="evenodd" d="M9 3v10H8V3h1z"/><path d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z"/></svg>
         <h2>Modo offline</h2>
         <p>Ouça musica aonde voçê estiver.</p>
     
 
-        <img class="p-2" src="imagens/error-logo.png" alt="">
+        <svg xmlns="http://www.w3.org/2000/svg" width="95" height="95" fill="currentColor" class="bi bi-megaphone-fill" viewBox="0 0 16 16"><path d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-11zm-1 .724c-2.067.95-4.539 1.481-7 1.656v6.237a25.222 25.222 0 0 1 1.088.085c2.053.204 4.038.668 5.912 1.56V3.224zm-8 7.841V4.934c-.68.027-1.399.043-2.008.053A2.02 2.02 0 0 0 0 7v2c0 1.106.896 1.996 1.994 2.009a68.14 68.14 0 0 1 .496.008 64 64 0 0 1 1.51.048zm1.39 1.081c.285.021.569.047.85.078l.253 1.69a1 1 0 0 1-.983 1.187h-.548a1 1 0 0 1-.916-.599l-1.314-2.48a65.81 65.81 0 0 1 1.692.064c.327.017.65.037.966.06z"/></svg>
         <h2>Ouça musica sem anúncios</h2>
         <p>Curta música,sem parar.</p>
 
-        <img class="p-2" src="imagens/notas-icone.png" alt="">
+        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-music-note-list" viewBox="0 0 16 16"><path d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2z"/><path fill-rule="evenodd" d="M12 3v10h-1V3h1z"/><path d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1V2.82z"/><path fill-rule="evenodd" d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/></svg>
         <h2>Ouça oque quiser</h2>
         <p>Mesmo no celular ou tablet</p>
 
-        <img class="p-2" src="imagens/video-icone.png" alt="">
+        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-fast-forward-circle-fill" viewBox="0 0 16 16"><path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16ZM4.79 5.093 8 7.386V5.5a.5.5 0 0 1 .79-.407l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 8 10.5V8.614l-3.21 2.293A.5.5 0 0 1 4 10.5v-5a.5.5 0 0 1 .79-.407Z"/></svg>
         <h2>Troque de música quando quiser</h2>
         <p>Pule quando quiser</p>
 
-
-
-             
         
-                        
+        <section class="container-fluid">
+            <article class="card-group">
+                <div class="card">
+                    <div class="card-body">
+                        <button class="btn btn-primary"><span class="badge badge-primary color-white">1 Mês grátis ao assinar</span></button>
+                        <h4 class="card-title">Individual</h4>
+                        <p class="card-text">R$ 19,90/mês após o período da oferta
+                        <br> 1 conta</p>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque ea sint quia quos voluptas sunt modi. Nulla qui dolor aliquid deserunt sint? Saepe excepturi adipisci quo cupiditate quaerat ex aut.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <button class="btn btn-primary"><span class="badge badge-primary color-white">1 Mês grátis ao assinar</span></button>
+                        <h4 class="card-title">Duo</h4>
+                        <p class="card-text">R$ 24,90/mês após o período da oferta
+                        <br> 2 contas</p>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque ea sint quia quos voluptas sunt modi. Nulla qui dolor aliquid deserunt sint? Saepe excepturi adipisci quo cupiditate quaerat ex aut.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <button class="btn btn-primary"><span class="badge badge-primary color-white">1 Mês grátis ao assinar</span></button>
+                        <h4 class="card-title">Família</h4>
+                        <p class="card-text">R$ 34,90/mês após o período da oferta
+                        <br> Até 6 contas</p>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque ea sint quia quos voluptas sunt modi. Nulla qui dolor aliquid deserunt sint? Saepe excepturi adipisci quo cupiditate quaerat ex aut.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <button class="btn btn-primary"><span class="badge badge-primary color-white">1 Mês grátis ao assinar</span></button>
+                        <h4 class="card-title">Universitário</h4>
+                        <p class="card-text">R$ 9,90/mês após o período da oferta
+                        <br> 1 conta</p>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque ea sint quia quos voluptas sunt modi. Nulla qui dolor aliquid deserunt sint? Saepe excepturi adipisci quo cupiditate quaerat ex aut.</p>
+                    </div>
+                </div>
+            </article>
+            
+        </section>
 
             </section>
         </section>

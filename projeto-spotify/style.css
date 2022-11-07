@@ -3,17 +3,29 @@
 /*Cabeçalho da paginha*/
 #cabecalho{
     background-color: black;
+    display: list-item;
+    padding: 10px;
+    
 }
 
 #logo-spot{
-    width: 150px;
-    display: block;
-    margin: 0px 0px -52px 0px;
+    min-width: 80px;
+    max-width: 210px;
+    display: inline;
+}
+
+nav{
+    justify-content: flex-end;
+    justify-items: center;
+    display: inline;
 }
 
 .nav-link{
+    font-size: 1.08em;
     color: white;
     font-weight: bold;
+
+    
 }
 
 .nav-link:hover{
@@ -38,6 +50,7 @@
     background-color: black;
     color: white;
     margin: 0px 5px 0px 0px;
+    transition: .2s;
 
 }
 
@@ -50,6 +63,7 @@
 #planos{
     border: 1px solid white;
     color: white;
+    transition: .2s;
 
 }
 
@@ -86,14 +100,15 @@
 }
 
 
-.logos>img{
+.logos{
+    display: list-item;
+}
 
-    width: 140px;
-    height: 140px;
-    display: inline-block;
-    border-radius: 50%;
-    margin: 50px 50px 0px 50px;
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.233);
+
+.logos>svg{
+
+    display: inline;
+    margin: 0px 0px 20px 0px;
     
     
 }
