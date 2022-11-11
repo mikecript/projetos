@@ -81,10 +81,12 @@
 }
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  max-width: 98.9vw;
+  max-width: 99.8vw;
   font-family: "Roboto", Arial, Helvetica, sans-serif, sans-serif;
   background-color: #e4e4e4;
 }
@@ -95,17 +97,17 @@ p {
 }
 
 #logoAbobora {
-  min-width: 15px;
-  max-width: 45.8px;
+  min-width: 10px;
+  max-width: 4vw;
   margin: 0px 0px 0px 3.5vw;
   -webkit-animation: entradaCima 0.71s ease 0s 1 normal forwards;
           animation: entradaCima 0.71s ease 0s 1 normal forwards;
 }
 
 #falhaCriticaLogo {
-  min-width: 60vw;
+  min-width: 10vw;
   max-width: 60vw;
-  margin: -50px auto 10px auto;
+  margin: auto;
   display: block;
   -webkit-animation: fade 1.1s ease 0s 1 normal forwards;
           animation: fade 1.1s ease 0s 1 normal forwards;
@@ -117,6 +119,10 @@ p {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.containerMapas {
+  display: flex;
 }
 
 #apresentacao > h1 {
@@ -144,9 +150,14 @@ p {
   max-width: 100vw;
 }
 
+.containerTextoMapas {
+  width: 600px;
+  margin: 6vw 0px 0px 0px;
+}
+
 #tituloMapas {
   font-weight: bolder;
-  color: #ff8049;
+  color: #f2692e;
   font-size: 2.9vw;
   -webkit-animation: entradaCima 0.6s ease 0s 1 normal forwards;
           animation: entradaCima 0.6s ease 0s 1 normal forwards;
@@ -170,9 +181,10 @@ p {
 }
 
 #encontrosContainer {
-  margin: 0px 0px 0px 0px;
   background-color: #e4e4e4;
-  padding: 25px;
+  display: flex;
+  align-items: center;
+  padding: 50px;
 }
 
 [data-anime] {
@@ -195,19 +207,14 @@ p {
   transform: translate3d(0px, 0px, 0px);
 }
 
-.paragrafoEncontros {
-  font-size: 2vw;
+.paragrafosGerais {
   text-align: left;
 }
 
-#tituloEncontroPronto {
-  color: #ff8049;
-  font-size: 3.6vw;
-}
-
 .titulos {
-  color: #ff8049;
-  font-size: 4.5vw;
+  color: #f2692e;
+  font-size: 3vw;
+  font-weight: bolder;
 }
 
 #encontrosAleatoriosimg {
@@ -217,70 +224,77 @@ p {
 
 #livroMagico {
   background: url(imagens/backgroundBody-edited.jpg);
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
   color: #e4e4e4;
-  padding: 25px;
-  margin: 0px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px 20px 20px;
+}
+
+#livroPuzzeContainer {
+  display: flex;
+  align-items: center;
+  margin: -3.5vw 0px 0px 0px;
 }
 
 #magicBookImg {
-  min-width: 80px;
+  min-width: 18vw;
   max-width: 18vw;
+  margin: -25px 0px 0px 50px;
+  align-items: center;
   /*-150px 0px 0px 170px*/
-  margin: -150px 0px 0px 80px;
+}
+
+.containerPuzzes {
+  min-width: 10px;
+  max-width: 600px;
+  text-align: center;
+  display: inline-block;
+  margin: 0px 0px 0px 25vw;
 }
 
 .alinhamentoEnd {
   text-align: end;
-  min-width: 10px;
-  max-width: 600px;
-  font-size: 1.6vw;
 }
 
 #puzzesEnigmasP {
-  text-align: end;
-  font-size: 3vw;
+  text-align: left;
 }
 
 #explorar {
-  padding: 15px;
+  padding: 50px 50px 30px 50px;
+  display: flex;
+  background-color: #e4e4e4;
+}
+
+.containerExplorar {
+  width: 700px;
 }
 
 #mobileImg {
   min-width: 10px;
-  max-width: 40vw;
-  margin-top: -19%;
-  margin-bottom: -19%;
-}
-
-.tituloExplorar {
-  color: #ff8049;
-  min-width: 135px;
-  max-width: 40vw;
-  font-size: 2.8vw;
+  max-width: 55vw;
+  margin-top: -25%;
+  margin-bottom: -25%;
 }
 
 #dicas {
-  margin: 0px 0px 0px 0px;
   padding: 50px;
-  background: url(imagens/backgroundBody-edited.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  display: flex;
   color: #e4e4e4;
+}
+
+#containerDicas {
+  display: flex;
+  align-items: center;
 }
 
 #midias {
   margin: 0px 0px 0px 0px;
   min-width: 100px;
   max-width: 40vw;
-}
-
-.titulosRevista {
-  color: #ff8049;
-  font-size: 3.6vw;
 }
 
 #assine {
