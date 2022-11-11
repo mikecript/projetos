@@ -82,7 +82,7 @@ p{
 }
 
 #falhaCriticaLogo{
-    min-width: 10vw;
+    min-width: 15vw;
     max-width: 60vw;
     margin: auto;
     display: block;
@@ -108,6 +108,8 @@ p{
     color: white;
     text-align: center;
     font-size: calc(2.5vw);
+    min-width: 10px;
+    max-width: 860px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     margin: auto;
@@ -117,7 +119,7 @@ p{
 #folhas{
     min-width: 10vw;
     max-width: 43vw;
-    display: block;
+    display: inline-flex;
     margin: -27px 0px 0px 5px;
     animation: entradaRight .6s ease 0s 1 normal forwards;
 }
@@ -127,18 +129,11 @@ p{
     width: 620px;
 }
 
-#tituloMapas{
-    font-weight: bolder;
-    color: $corPrimaria;
-    font-size: calc(2.9vw);
-    animation: entradaCima .6s ease 0s 1 normal forwards;
-}
 
 .mapas{
     font-family: Arial, Helvetica, sans-serif;
     color: $branco;
     text-align: end;
-    font-size: calc(1.5vw);
     min-width: 48vw;
     max-width: 48vw;
     align-self: baseline;
@@ -187,12 +182,13 @@ p{
 
 .titulos{
     color: $corPrimaria;
-    font-size: calc(3vw);
+    font-size: min($numbers: calc(2vw));
+    font-size: max($numbers: calc(3vw)) ;
     font-weight: bolder;
 }
 
 #encontrosAleatoriosimg{
-    min-width: 100px;
+    min-width: 50vw;
     max-width: 50vw;
 }
 
@@ -211,13 +207,13 @@ p{
 #livroPuzzeContainer{
     display: flex;
     align-items: center;
-    margin: -3.5vw 0px 0px 0px;
 }
 
 #magicBookImg{
     min-width: 18vw;
     max-width: 18vw;
-    margin: -25px 0px 0px 50px;
+    align-self: center;
+    margin: -50px 0px 0px 0px;
     align-items: center;
     /*-150px 0px 0px 170px*/
 }
