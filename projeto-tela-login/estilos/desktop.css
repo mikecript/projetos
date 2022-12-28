@@ -88,4 +88,12 @@ TV acima de 1200
     div#formulario > p {
     font-size: 1.1em;
 }
+
+    
+div.campo > input{
+
+    transition: .2s;
+    transform: translateY(-13.2px);
+}
+
 }
