@@ -5,7 +5,9 @@
     background-color: black;
     display: list-item;
     padding: 10px;
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #logo-spot{

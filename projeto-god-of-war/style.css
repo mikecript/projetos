@@ -1,0 +1,201 @@
+@font-face {
+  font-family: "god";
+  src: url("fonts/godofwar/GODOFWAR.TTF") format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+del {
+  color: #ae2d2d;
+  font-family: "god", Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7921568627), rgba(0, 0, 0, 0.7921568627)), url(imagens/fundo2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-shadow: 1.4px 1.4px 1px #243340;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "god", Arial, Helvetica, sans-serif;
+}
+
+header > figure > img {
+  min-width: 100px;
+  max-width: 230px;
+  ;
+}
+
+ul {
+  display: inline;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 30px;
+  transition: 0.3s;
+  font-size: 1.2em;
+  cursor: pointer;
+  position: relative;
+  padding: 10px;
+}
+
+nav a::after {
+  content: " ";
+  width: 0%;
+  height: 2px;
+  background-color: #75BFFF;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: 0.5s ease-in-out;
+}
+
+nav a:hover {
+  color: #75BFFF;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+#descricaogame {
+  background-color: #1E4B73;
+}
+
+#descricaogame>article{
+  display: flex;
+  color: #EDFCFF;
+  align-items: center;
+  justify-content: center;
+}
+
+#kratosvsthor{
+  background-image: url("imagens/kratosvsthor.jpg");
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+}
+
+#descricaogame > article > div > h1 {
+  color: #75BFFF;
+  text-align: center;
+  font-family: "god", Arial, Helvetica, sans-serif;
+}
+
+#descricaogame > article > div > p {
+  color: #75BFFF;
+}
+
+#vantagensgame {
+  background-color: #EDFCFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#vantagensgame > article > img {
+  display: block;
+  margin: auto;
+  min-width: 50%;
+  max-width: 60%;
+}
+
+#vantagensgame > article > p {
+    width: 100%;
+}
+
+#vantagensgame > article > h2 {
+  text-align: center;
+  width: 100%;
+  font-family: "god", Arial, Helvetica, sans-serif;
+}
+
+#vantagensgame > article {
+  padding: 5px;
+  width: 100%;
+}
+
+#vantagensgame > article > p {
+  text-align: justify;
+}
+
+.titulocarousel {
+  color: #EDFCFF;
+  text-shadow: 1.4px 1.4px 1px #243340;
+  font-family: "god", Arial, Helvetica, sans-serif;
+}
+
+#containerHistoria {
+  background-color: #1E4B73;
+  color: #75BFFF;
+}
+
+#historia {
+  text-indent: 20px;
+}
+
+#historia > h1 {
+  font-family: "god", Arial, Helvetica, sans-serif;
+  text-shadow: 1.4px 1.4px 1px #243340;
+  text-align: center;
+}
+
+#kratosgames {
+  background-image: url("imagens/godofwar-playgames-cronologia.jpg");
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+}
+
+#ebook {
+  padding: 200px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7921568627), rgba(0, 0, 0, 0.7921568627)), url(imagens/fundo2.jpg);
+  background-attachment: fixed;
+  color: #EDFCFF;
+}
+
+#iopiniao {
+  display: block;
+  margin: 10px auto;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 250px;
+  max-height: 250px;
+}
+
+#ebookForm {
+  text-align: center;
+}
+
+#ebookForm > input {
+  display: block;
+  margin: 10px auto;
+  min-width: 100%;
+}
+
+.botaoGod {
+  padding: 5px;
+  background-color: #1E4B73;
+  color: #75BFFF;
+  transition: 0.4s;
+  min-width: 30%;
+  max-width: 50%;
+  border: none;
+}
+
+.botaoGod:hover {
+  background-color: #75BFFF;
+  color: #1E4B73;
+}/*# sourceMappingURL=style.css.map */

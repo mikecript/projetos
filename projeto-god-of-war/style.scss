@@ -1,0 +1,207 @@
+$corPrimaria: #B3CFF2;
+$corSecundaria: #1E4B73;
+$corTerciaria: #243340;
+$corQuarta: #6588A6;
+$corQuinta: #EDFCFF;
+$corAnaloga: #75BFFF;
+$vermelho: #ae2d2d;
+
+
+@font-face {
+    font-family: 'god';
+    src: url('fonts/godofwar/GODOFWAR.TTF') format('truetype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+del{
+    color: $vermelho;
+    font-family: 'god', Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    background-image: linear-gradient(#000000ca, #000000ca), url(imagens/fundo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-shadow: 1.4px 1.4px 1px $corTerciaria;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'god', Arial, Helvetica, sans-serif;
+}
+
+
+header>figure>img{
+    width: 230px;
+}
+
+ul{
+    display: inline;
+}
+
+li{
+    display: inline;
+  
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 30px;
+    transition: .3s;
+    font-size: 1.2em;
+    cursor: pointer;
+    position: relative;
+    padding: 10px;
+
+    
+}
+
+nav a::after{
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: $corAnaloga;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: .5s ease-in-out;
+}
+
+
+nav a:hover{
+    color: $corAnaloga;
+}
+
+
+nav a:hover::after{
+    width: 100%;
+}
+
+#descricaogame{
+    background-color: $corSecundaria;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#descricaogame>div>img{
+    width: 700px;
+}
+
+
+#descricaogame>article>h1{
+    color: $corAnaloga;
+    text-align: center;
+    font-family: 'god', Arial, Helvetica, sans-serif;
+}
+
+
+#descricaogame>article>p{
+    color: $corAnaloga;
+}
+ 
+
+#vantagensgame{
+    background-color: $corQuinta;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#vantagensgame>article>img{
+    display: block;
+    margin: auto;
+    width: 15vw;
+}
+
+
+#vantagensgame>article>h2{
+    text-align: center;
+    font-family: 'god', Arial, Helvetica, sans-serif;
+}
+
+
+#vantagensgame>article{
+    padding: 100px;
+}
+
+#vantagensgame>article>p{
+    text-align: justify;
+}
+
+.titulocarousel{
+    color: $corQuinta;
+    text-shadow: 1.4px 1.4px 1px $corTerciaria;
+    font-family: 'god', Arial, Helvetica, sans-serif;
+}
+
+#containerHistoria{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: $corSecundaria;
+    color: $corAnaloga;
+    background-attachment: fixed;
+  
+  }
+  
+  #historia{
+    padding: 20px;
+    text-indent: 20px;
+  }
+  
+  #historia>h1{
+    font-family: 'god', Arial, Helvetica, sans-serif;
+    text-shadow: 1.4px 1.4px 1px #243340;
+    text-align: center;
+  }
+  
+  #gamesCronologia{
+    width: 632px;
+  }
+  
+  #ebook{
+    padding: 200px;
+    background-image: linear-gradient(#000000ca, #000000ca), url(imagens/fundo2.jpg);
+    background-attachment: fixed;
+    color: $corQuinta;
+  }
+  
+  #iopiniao{
+    display: block;
+    margin: 10px auto;
+    min-width: 600px;
+    max-width: 600px;
+  }
+  
+  #ebookForm{
+    text-align: center;
+  }
+  
+  #ebookForm>input{
+    display: block;
+    margin: 10px auto;
+    width: 31%;
+  
+  }
+  
+  .botaoGod{
+    padding: 5px;
+    background-color: $corSecundaria;
+    color: $corAnaloga;
+    transition: .4s ;
+    border: none;
+  }
+
+ .botaoGod:hover{
+    background-color: $corAnaloga;
+    color: $corSecundaria;
+ }
