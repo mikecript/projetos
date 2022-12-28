@@ -4,26 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/desktop.css">
     <title>Login</title>
 </head>
 <body>
     
 
     <main>
+
     <section id="login">
     <div id="imagem">
        <!--<img src="imagens/imagem-fundo-games.jpg" alt=""> --> 
     </div>
 
-    
+
     <div id="formulario">
         <h1>Login</h1>
-        <p>Seja bem vindo(a) novamente.</p>
+        <p>Seja bem vindo(a) novamente Gamer!</p>
 
         <form action="login.php" method="post">
-            <label for="iemail"> <input type="email" name="email" id="iemail"></label>
-            <label for="isenha"> <input type="password" name="senha" id="isenha"></label>
+
+            <div class="campo">
+            <i class="material-icons">person</i>
+            <input type="email" autocomplete="email" required maxlength="30" autofocus placeholder="seu email..." name="email" id="iemail">
+            <label for="iemail">login</label>
+            </div>
+
+            <div class="campo">
+            <i class="material-icons">key</i>
+            <input type="password" required autocomplete="current-password" minlength="8" maxlength="20" placeholder="sua senha..." name="senha" id="isenha">
+            <label for="isenha">senha</label>
+            </div>
+
+            <input type="submit" value="Entrar">
+            <a href="#" class="botao">
+                Esqueci a senha <i class="material-icons">mail</i>
+            </a>
+
         </form>
     </div>
     </section>
