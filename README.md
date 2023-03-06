@@ -1,9 +1,5 @@
 
-# Olá, eu sou o maicol! ^^
-
-# Estou aprendendo ReactJS!
-
-# Meus Projetos e Tecnologias utilizadas
+# Meus Projetos
   
 <br>
 
@@ -18,6 +14,8 @@
 <a href="https://mikecript.github.io/projetos/projeto-indice-massa-corporal/assets/index.html">Projeto Calculador de IMC(Indice de massa corporal)</a> <br>
 <p>HTML, CSS e Javascript</p>
 
+
+# Logo mais posto um projeto clone da netflix feito em ReactJS
 
 
 
